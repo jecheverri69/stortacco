@@ -1,0 +1,102 @@
+/*Footer*/
+/* <editor-fold defaultstate="collapsed" desc="Código Acumulado"> */
+footer{
+    
+    margin-bottom: 0;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: Arial;
+    background: #000;
+}
+
+/*fragmento uno*/
+.finfo{
+    width: 100%;
+    height: auto;
+    padding:14px 0;
+   
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+}
+
+.finfo .fcontacto,.fubicacion,.fsiguenos{
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 28px;
+    width:100%;
+    color: #955469;
+    padding:5px;
+}
+
+.titulo p{
+    margin:0;
+    padding:0;
+}
+
+.contenido{
+    text-align: center;
+    color: #fff;
+    padding:5px;
+}
+.contenido p{
+    margin:2px;
+    font-size:18px;
+    font-weight:normal;
+}
+
+/*fragmento dos*/
+.seccion1 {
+    
+    width: 90%;
+  
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-bottom: 3px solid #fff;
+    
+}
+
+#forms {
+  
+    border:none;
+    padding: 10px 8px;
+    width: 100%;
+}
+
+.inputuno {
+    border-radius: 5px;
+    display: block;
+    width: 400px;
+    margin: 0 auto 10px auto;
+    
+}
+
+/*fragmento tres*/
+.frigths{
+    width: 100%;
+    padding:0  0 10px 0;
+    margin: 0px;
+    letter-spacing:1.5pt;
+    text-align: center;
+    color:#7B2943;
+}
+/* </editor-fold> */
+
+
+
+
+
+

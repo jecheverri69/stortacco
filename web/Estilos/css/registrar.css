@@ -1,0 +1,29 @@
+/*contenido del registrar*/
+/* <editor-fold defaultstate="collapsed" desc="Código Acumulado"> */
+.body2 {
+    margin-top: 40px;
+    background-image: url(../imagenes/bar4.jpg);
+    background-attachment: fixed;
+    background-size: cover
+}
+
+#h4 {
+    color: white;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+/*dieseño del boton*/
+#btnSS {
+    background: #510823;
+    width: 100%;
+    color: #ffffff;
+}
+
+#btnSS:hover {
+    background: #7E1F43;
+    color: #ffffff;
+}
+
+/* </editor-fold> */

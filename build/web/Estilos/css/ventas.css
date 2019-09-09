@@ -1,0 +1,7 @@
+.btnMesas {
+    background-image: linear-gradient(to right top, #e8bc09, #c87b29, #8f4830, #4a2425, #000000);
+    border: none;
+    width: 150px;
+    height: 20vh;
+    margin: 3px;
+}

@@ -1,0 +1,308 @@
+/* <editor-fold defaultstate="collapsed" desc="Código Acumulado"> */
+/* ---------contenido de las tablas---------*/
+portadaprincipal{
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; 
+}
+
+.portadaprincipal p{
+    font-size: 60px;
+    font-weight: bold;
+    color: #7E1F41;
+    letter-spacing: 1pt;
+    font-family: monospace;
+    display: block;
+    margin: 240px 0; 
+}
+
+portadaprincipal{
+    width:100%;
+    height:100vh;
+    background-image:url("../imagenes/Licores.jpg");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; 
+}
+
+
+
+.cuerpo{
+    padding:20px 0;
+    width:100%;
+    background-image: linear-gradient(to right top, #000000, #111010, #1c191a, #272323, #322c2c);
+    margin-bottom: 30px;
+}
+
+.cuerpo .cuerpoNav{
+    width:80%;
+    padding:10px 0 20px 0;
+    border-bottom:solid 3px #7E1F41;
+    display:flex;
+    justify-content:space-around;
+    margin:auto;
+    margin-bottom:25px;
+}
+.cuerpo .cuerpoNav button{
+    background:#7B2943;
+    color:#fff;
+    outline:none;
+    padding:10px 24px;
+    border-radius:10px;
+    font-size:20px;
+    letter-spacing:.3pt;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.cuerpo .cuerpoNav button:hover{
+    color:#fff;
+    background:#AD7085;
+    outline:none;
+    letter-spacing:.8pt;
+}
+.cuerpo article{
+    width:80%;
+    margin:auto;
+}
+
+
+/*----botones del De los formularios-----*/
+.btns {
+    display: flex;
+    position: absolute;
+    width: 50%;
+
+}
+
+.bot {
+    text-align: center;
+}
+
+.Registrar {
+    color: #fff;
+    background: #7E1F41;
+}
+
+.Registrar:hover {
+    color: #fff;
+    background: #510823;
+}
+
+.Cancelar {
+    color: #fff;
+    background: #7E1F41;
+}
+
+.Cancelar:hover {
+    color: #fff;
+    background: #510823;
+
+}
+
+
+/*----------navegador normal----------------*/
+
+nav.nav {
+    width: 100%;
+    height: 90px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+nav.nav-rem {
+    width: 100%;
+    height: 110px;
+    background: transparent;
+}
+
+.navlogoBL {
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-iteration-count:1;
+    width: 20%;
+    height: 100%;
+}
+
+.navlogoBL a {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlogoBL a:hover img{
+    height:90%;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.navlogoBL a img {
+    height: 80%;
+}
+
+.navlogoVT {
+    width: 0%;
+    height: 100%;
+}
+
+.navlogoVT a img {
+    height: 0%;
+}
+
+.navmodu {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navsingup {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navuls {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navuls li {
+    display: inline-block;
+    margin: 0 8px;
+    height: 100%;
+    font-size: 10px;
+}
+
+.navuls li a:link {
+    text-decoration: none;
+    padding: 9px 7px;
+    color: #fff;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px transparent;
+    font-size: 15px;
+    letter-spacing: .5pt;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.navuls li a:visited {
+    color: #fff;
+}
+.navuls li a:hover{
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    letter-spacing: 1.5pt;
+    color: #BB919F;
+}
+
+
+.fa-bars {
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/*------------------navegador pegajoso---------------------------*/
+
+nav.snav {
+    width: 100%;
+    height: 95px;
+    background: #000000;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-transition: all .3ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.snavlogoBL {
+    width: 0%;
+    height: 100%;
+}
+
+.snavlogoBL a img {
+    height: 0%;
+}
+
+.snavlogoVT {
+    width: 20%;
+    height: 100%;
+}
+
+.navlogoVT a {
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlogoVT a:hover img {
+    height:96%;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.snavlogoVT a img {
+    height: 90%;
+}
+
+.snavuls {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.snavuls li {
+    display: inline-block;
+    margin: 0 8px;
+    height: 100%;
+}
+
+.snavuls li a:link,a:visited {
+    text-decoration: none;
+    padding: 9px 7px;
+    color: #fff;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px transparent;
+    font-size: 15px;
+    letter-spacing: .5pt;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.snavuls li a:visited {
+    color: #fff;
+}
+.snavuls li a:hover {
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    letter-spacing: 1.5pt;
+    color: #BB919F; 
+}
+
+/* </editor-fold> */

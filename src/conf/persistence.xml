@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="StortaccoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.Stortacco.beans.Proveedores</class>
+    <class>com.Stortacco.beans.Usuarios</class>
+    <class>com.Stortacco.beans.Productos</class>
+    <class>com.Stortacco.beans.Reservas</class>
+    <class>com.Stortacco.beans.InformacionUsuarios</class>
+    <class>com.Stortacco.beans.Ventas</class>
+    <class>com.Stortacco.beans.DetallesVentas</class>
+    <class>com.Stortacco.beans.DetallesProductos</class>
+    <class>com.Stortacco.beans.Usuarios_1</class>
+    <class>com.Stortacco.beans.DetallesProductos_1</class>
+    <class>com.Stortacco.beans.Productos_1</class>
+    <class>com.Stortacco.beans.InformacionUsuarios_1</class>
+    <class>com.Stortacco.beans.Proveedores_1</class>
+    <class>com.Stortacco.beans.Ventas_1</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/stortacco?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="1599195"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+    </properties>
+  </persistence-unit>
+</persistence>
